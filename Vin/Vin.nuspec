@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Vin</id>
+    <version>0.0.1-beta</version>
+    <title>Vin</title>
+    <authors>Dale Newman</authors>
+    <owners>Dale Newman</owners>
+    <licenseUrl>https://github.com/dalenewman/Vin/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/dalenewman/Vin</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <releaseNotes>Initial pre-release</releaseNotes>
+    <description>Vehicle Identification Number</description>
+    <copyright>Copyright © 2016</copyright>
+    <tags>vin</tags>
+    <dependencies>
+      <group targetFramework="netstandard1.0">
+        <dependency id="NETStandard.Library" version="1.6.0" />
+      </group>
+      <group targetFramework="portable-net45+win8+wpa81+wp8" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\netstandard1.0\Vin.dll" target="lib\netstandard1.0\Vin.dll" />
+    <file src="bin\Release\netstandard1.0\Vin.dll" target="lib\portable-net45+win8+wpa81+wp8\Vin.dll" />
+  </files>
+</package>
