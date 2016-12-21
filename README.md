@@ -4,6 +4,8 @@
 
 This is a .NET library for **V**ehicle **I**dentification **N**umbers.
 
+#### Usage
+
 ```csharp
     Vin.IsValid("11111111111111111") // --> true
     Vin.GetWorldManufacturer("1J4..............") // --> Jeep
@@ -11,7 +13,7 @@ This is a .NET library for **V**ehicle **I**dentification **N**umbers.
     Vin.GetModelYear('D') // --> 2013
 ```
 
-#### Disclaimers
+#### Notes
 
 * `IsValid` assumes 9th digit is a check digit<br/>
 * `GetWorldManufacturer` using snapshot of <a href="https://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)/World_Manufacturer_Identifier_(WMI)">Wikibooks</a> data<br/>
