@@ -64,13 +64,13 @@ namespace Test {
         }
 
         [TestMethod]
-        public void TestHondaUsa() {
-            Assert.AreEqual("Honda USA", Vin.GetWorldManufacturer("1HT"));
+        public void TestInternational() {
+            Assert.AreEqual("International", Vin.GetWorldManufacturer("1HT"));
         }
 
         [TestMethod]
         public void TestToyotaMatchingFirstTwo() {
-            Assert.AreEqual("Toyota USA - trucks", Vin.GetWorldManufacturer("5TF"));
+            Assert.AreEqual("Toyota USA - trucks", Vin.GetWorldManufacturer("5TG"));
         }
 
         [TestMethod]

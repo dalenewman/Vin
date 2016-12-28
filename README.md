@@ -15,6 +15,6 @@ This is a .NET library for **V**ehicle **I**dentification **N**umbers.
 
 #### Notes
 
-* `IsValid` assumes 9th digit is a check digit<br/>
-* `GetWorldManufacturer` using snapshot of <a href="https://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)/World_Manufacturer_Identifier_(WMI)">Wikibooks</a> data<br/>
-* `GetModelYear` assumes 10th digit is model year
+* `IsValid` assumes 9th digit is check digit.<br/>
+* `GetWorldManufacturer` uses combination of data from <a href="https://en.wikibooks.org/wiki/Vehicle_Identification_Numbers_(VIN_codes)/World_Manufacturer_Identifier_(WMI)">Wikibooks</a> and [here](http://www.autocalculator.org/VIN/WMI.aspx).<br/>
+* `GetModelYear` assumes 10th digit is model year.

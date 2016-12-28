@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>Vin</id>
-    <version>0.0.4-beta</version>
+    <version>0.0.5-beta</version>
     <title>Vin</title>
     <authors>Dale Newman</authors>
     <owners>Dale Newman</owners>
     <licenseUrl>https://github.com/dalenewman/Vin/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/dalenewman/Vin</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Initial pre-release</releaseNotes>
+    <releaseNotes>added more world manufacturers (after testing against 500 VIN's showed Wikibooks is missing identifiers)</releaseNotes>
     <description>Vehicle Identification Number</description>
     <copyright>Copyright © 2016</copyright>
     <tags>vin</tags>
