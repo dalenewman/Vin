@@ -1,6 +1,7 @@
 ### Vin
 
-[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Vin.svg?style=plastic)](https://www.nuget.org/packages/Vin)
+[![Build status](https://ci.appveyor.com/api/projects/status/8jk3ws0uql554q5t?svg=true)](https://ci.appveyor.com/project/dalenewman/vin)
+[![NuGet Pre Release](https://img.shields.io/nuget/vpre/Vin.svg)](https://www.nuget.org/packages/Vin)
 
 This is a .NET library for **V**ehicle **I**dentification **N**umbers.
 
