@@ -1,0 +1,5 @@
+version: 0.0.5.{build}
+before_build:
+- cmd: nuget restore
+build:
+  verbosity: minimal
